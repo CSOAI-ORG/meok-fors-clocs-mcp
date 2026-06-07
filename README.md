@@ -63,7 +63,7 @@ pip install meok-fors-clocs-mcp
 - **Fleet** — £499/mo (50+ vehicles, white-label for consultancies)
 - **ER tier** — £1,499/mo (DVSA Earned Recognition data-feed assist + monthly review)
 
-[Subscribe Pro → £149/mo](https://buy.stripe.com/aFa14F5SccMOgYRb95) · [Talk to Nick](mailto:nicholas@meok.ai)
+[Subscribe Pro → £149/mo](https://buy.stripe.com/5kQ6oJ0xS3ce8sl7ew8k91j) · [Talk to Nick](mailto:nicholas@meok.ai)
 
 ## Regulatory basis
 
