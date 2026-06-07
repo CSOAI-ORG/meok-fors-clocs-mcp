@@ -1,0 +1,25 @@
+# meok-fors-clocs-mcp
+
+> FORS Bronze/Silver/Gold + CLOCS + DVSA Earned Recognition audit-prep toolkit for UK haulage and plant hire. Saves 80+ consultancy hours per audit cycle. By MEOK AI Labs.
+
+MCP server by MEOK AI Labs. Framework: fastmcp. Transport: stdio.
+
+## Tools
+- check_fors_bronze_readiness
+- check_fors_silver_readiness
+- check_fors_gold_readiness
+- prepare_fors_audit_pack
+- check_clocs_compliance
+- audit_dvsa_earned_recognition_data_feed
+- forecast_fors_renewal
+- crosswalk_fors_to_clocs
+- generate_corrective_action_plan
+
+## Install
+```
+pip install meok-fors-clocs-mcp
+```
+
+## Links
+- PyPI: https://pypi.org/project/meok-fors-clocs-mcp/
+- Docs: https://meok.ai

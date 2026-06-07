@@ -1,0 +1,104 @@
+{
+  "name": "meok-fors-clocs-mcp",
+  "description": "FORS Bronze/Silver/Gold + CLOCS + DVSA Earned Recognition audit-prep toolkit for UK haulage and",
+  "url": "https://proofof.ai/scorecard/meok-fors-clocs-mcp.html",
+  "version": "1.0.0",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "check_fors_bronze_readiness",
+      "name": "Check Fors Bronze Readiness",
+      "description": "check_fors_bronze_readiness via meok-fors-clocs-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_fors_silver_readiness",
+      "name": "Check Fors Silver Readiness",
+      "description": "check_fors_silver_readiness via meok-fors-clocs-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_fors_gold_readiness",
+      "name": "Check Fors Gold Readiness",
+      "description": "check_fors_gold_readiness via meok-fors-clocs-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "prepare_fors_audit_pack",
+      "name": "Prepare Fors Audit Pack",
+      "description": "prepare_fors_audit_pack via meok-fors-clocs-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_clocs_compliance",
+      "name": "Check Clocs Compliance",
+      "description": "check_clocs_compliance via meok-fors-clocs-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "audit_dvsa_earned_recognition_data_feed",
+      "name": "Audit Dvsa Earned Recognition Data Feed",
+      "description": "audit_dvsa_earned_recognition_data_feed via meok-fors-clocs-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "forecast_fors_renewal",
+      "name": "Forecast Fors Renewal",
+      "description": "forecast_fors_renewal via meok-fors-clocs-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "crosswalk_fors_to_clocs",
+      "name": "Crosswalk Fors To Clocs",
+      "description": "crosswalk_fors_to_clocs via meok-fors-clocs-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "generate_corrective_action_plan",
+      "name": "Generate Corrective Action Plan",
+      "description": "generate_corrective_action_plan via meok-fors-clocs-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}

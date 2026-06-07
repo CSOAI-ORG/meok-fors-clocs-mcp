@@ -1,0 +1,36 @@
+name: meok-fors-clocs-mcp
+description: 'FORS Bronze/Silver/Gold + CLOCS + DVSA Earned Recognition audit-prep toolkit for UK haulage and'
+version: 1.0.0
+author: MEOK AI Labs
+homepage: https://proofof.ai
+repository: https://github.com/CSOAI-ORG/meok-fors-clocs-mcp
+license: MIT
+categories:
+- compliance
+- governance
+tools:
+- name: check_fors_bronze_readiness
+  description: check fors bronze readiness
+- name: check_fors_silver_readiness
+  description: check fors silver readiness
+- name: check_fors_gold_readiness
+  description: check fors gold readiness
+- name: prepare_fors_audit_pack
+  description: prepare fors audit pack
+- name: check_clocs_compliance
+  description: check clocs compliance
+- name: audit_dvsa_earned_recognition_data_feed
+  description: audit dvsa earned recognition data feed
+- name: forecast_fors_renewal
+  description: forecast fors renewal
+- name: crosswalk_fors_to_clocs
+  description: crosswalk fors to clocs
+- name: generate_corrective_action_plan
+  description: generate corrective action plan
+build:
+  type: python
+  entrypoint: server.py
+  dependencies:
+  - mcp>=1.0.0
+runtime:
+  python: '>=3.10'

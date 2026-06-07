@@ -1,0 +1,40 @@
+{
+  "name": "meok-fors-clocs-mcp",
+  "title": "Meok Fors Clocs Mcp",
+  "description": "FORS Bronze/Silver/Gold + CLOCS + DVSA Earned Recognition audit-prep toolkit for UK haulage and plant hire. Saves 80+ consultancy hours per audit cycle. By MEOK AI Labs.",
+  "version": "1.0.0",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "check_fors_bronze_readiness"
+    },
+    {
+      "name": "check_fors_silver_readiness"
+    },
+    {
+      "name": "check_fors_gold_readiness"
+    },
+    {
+      "name": "prepare_fors_audit_pack"
+    },
+    {
+      "name": "check_clocs_compliance"
+    },
+    {
+      "name": "audit_dvsa_earned_recognition_data_feed"
+    },
+    {
+      "name": "forecast_fors_renewal"
+    },
+    {
+      "name": "crosswalk_fors_to_clocs"
+    },
+    {
+      "name": "generate_corrective_action_plan"
+    }
+  ]
+}

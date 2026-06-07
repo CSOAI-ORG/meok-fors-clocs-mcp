@@ -1,0 +1,27 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "meok-fors-clocs-mcp",
+    "description": "FORS Bronze/Silver/Gold + CLOCS + DVSA Earned Recognition audit-prep toolkit for UK haulage and",
+    "version": "1.0.0",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "meok-fors-clocs-mcp"
+      }
+    ],
+    "capabilities": [
+      "check_fors_bronze_readiness",
+      "check_fors_silver_readiness",
+      "check_fors_gold_readiness",
+      "prepare_fors_audit_pack",
+      "check_clocs_compliance",
+      "audit_dvsa_earned_recognition_data_feed",
+      "forecast_fors_renewal",
+      "crosswalk_fors_to_clocs",
+      "generate_corrective_action_plan"
+    ]
+  }
+}
