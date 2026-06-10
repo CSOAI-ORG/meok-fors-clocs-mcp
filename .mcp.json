@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "meok-fors-clocs-mcp": {
+      "command": "uvx",
+      "args": [
+        "meok-fors-clocs-mcp"
+      ]
+    }
+  }
+}
