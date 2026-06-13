@@ -1,0 +1,185 @@
+{
+  "name": "Meok Fors Clocs Mcp",
+  "version": "1.0.0",
+  "url": "https://mcp.meok.ai/meok-fors-clocs-mcp/a2a",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "protocolVersion": "0.3.0",
+  "description": "FORS Bronze/Silver/Gold + CLOCS + DVSA Earned Recognition audit-prep toolkit for UK haulage and plant hire. Saves 80+ consultancy hours per audit cycle. By MEOK AI Labs.",
+  "provider": {
+    "organization": "MEOK AI LABS",
+    "url": "https://meok.ai"
+  },
+  "defaultInputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "check_fors_bronze_readiness",
+      "name": "Check Fors Bronze Readiness",
+      "description": "Check Fors Bronze Readiness — a tool of the meok-fors-clocs-mcp MCP.",
+      "tags": [
+        "audit",
+        "haulage"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_fors_silver_readiness",
+      "name": "Check Fors Silver Readiness",
+      "description": "Check Fors Silver Readiness — a tool of the meok-fors-clocs-mcp MCP.",
+      "tags": [
+        "audit",
+        "haulage"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_fors_gold_readiness",
+      "name": "Check Fors Gold Readiness",
+      "description": "Check Fors Gold Readiness — a tool of the meok-fors-clocs-mcp MCP.",
+      "tags": [
+        "audit",
+        "haulage"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "prepare_fors_audit_pack",
+      "name": "Prepare Fors Audit Pack",
+      "description": "Prepare Fors Audit Pack — a tool of the meok-fors-clocs-mcp MCP.",
+      "tags": [
+        "audit",
+        "haulage"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_clocs_compliance",
+      "name": "Check Clocs Compliance",
+      "description": "Check Clocs Compliance — a tool of the meok-fors-clocs-mcp MCP.",
+      "tags": [
+        "audit",
+        "haulage"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "audit_dvsa_earned_recognition_data_feed",
+      "name": "Audit Dvsa Earned Recognition Data Feed",
+      "description": "Audit Dvsa Earned Recognition Data Feed — a tool of the meok-fors-clocs-mcp MCP.",
+      "tags": [
+        "audit",
+        "haulage"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "forecast_fors_renewal",
+      "name": "Forecast Fors Renewal",
+      "description": "Forecast Fors Renewal — a tool of the meok-fors-clocs-mcp MCP.",
+      "tags": [
+        "audit",
+        "haulage"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "crosswalk_fors_to_clocs",
+      "name": "Crosswalk Fors To Clocs",
+      "description": "Crosswalk Fors To Clocs — a tool of the meok-fors-clocs-mcp MCP.",
+      "tags": [
+        "audit",
+        "haulage"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "generate_corrective_action_plan",
+      "name": "Generate Corrective Action Plan",
+      "description": "Generate Corrective Action Plan — a tool of the meok-fors-clocs-mcp MCP.",
+      "tags": [
+        "audit",
+        "haulage"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    }
+  ],
+  "documentationUrl": "https://meok.ai",
+  "x-meok": {
+    "mcp_name": "meok-fors-clocs-mcp",
+    "verifier": "https://proofof.ai/verify",
+    "governed_by": "CSOAI 52-article charter"
+  }
+}
