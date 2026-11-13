@@ -55,15 +55,11 @@ pip install meok-fors-clocs-mcp
 | `crosswalk_fors_to_clocs` | Reuse FORS evidence for ~80% of CLOCS — don't double-prep. |
 | `generate_corrective_action_plan` | Prioritised CAP with owners + due dates + evidence required. |
 
-## Pricing
+## How MEOK charges
 
-- **Free** — MIT self-host
-- **Starter** — £49/mo (signed attestations + email support)
-- **Pro** — £149/mo (multi-user, audit-export, FORS-CLOCS crosswalk)
-- **Fleet** — £499/mo (50+ vehicles, white-label for consultancies)
-- **ER tier** — £1,499/mo (DVSA Earned Recognition data-feed assist + monthly review)
+MEOK has no subscriptions and no tiers. You pay per job, and only when the agreed artifact has been delivered to you. There is no public price list. See <https://meok.ai/pricing>.
 
-[Subscribe Pro → £149/mo](https://buy.stripe.com/aFa7sNcgAdQS0ZT1Uc8k91t) · [Talk to Nick](mailto:nicholas@meok.ai)
+This repository's source is MIT-licensed and free to self-host.
 
 ## Regulatory basis
 
